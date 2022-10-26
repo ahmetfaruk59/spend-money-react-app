@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 0;
+  width: 100%;
+}
+.scrollToBasket{
+  font-size: 2.3rem;
+  position: fixed;
+  left: 30px;
+  top: 65px;
+  height: 3.2rem;
+  background-color: #012a4a;
+  border-radius: 5px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
